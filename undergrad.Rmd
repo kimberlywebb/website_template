@@ -1,0 +1,50 @@
+---
+title: ""
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'undergrad.html'))})
+output:
+  html_document:
+    df_print: paged
+    css: "style.css"
+---
+
+<center> <h1>Undergraduate Education</h1> </center>
+
+<div>
+<div style="margin-bottom:20px;">
+</div>
+
+<center>
+<img src="cmu.png">
+</center>
+
+<div>
+<div style="margin-bottom:20px;">
+</div>
+
+    
+## Bachelors of Arts/Science: Major 
+
+University, College, City, State, Country
+
+
+- **Graduated:** Month 20XX   
+- List your achievements 
+- **GPA:** 10.00  
+- **Undergraduate Thesis**: "Title"    
+- **Thesis Advisor**: [Dr. Vicki Helgeson](https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/helgeson-vicki.html)
+
+</div>
+<div style="margin-bottom:20px;">
+</div>
+
+
+## Articles and News
+
+- [A student feature](https://www.cmu.edu/dietrich/news/news-stories/2018/may/kim-hochstedler.html) from graduation
+- List cool things you did
+
+

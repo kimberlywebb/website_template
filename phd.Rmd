@@ -1,0 +1,49 @@
+---
+title: ""
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'phd.html'))})
+output:
+  html_document:
+    df_print: paged
+    css: "style.css"
+---
+
+<center> <h1>Graduate Education - Ph.D.</h1> </center>
+
+</div>
+<div style="margin-bottom:20px;">
+</div>
+
+<center>
+<img src="cornell.jpg" style="width:55%">
+</center>
+
+</div>
+<div style="margin-bottom:20px;">
+</div>
+
+## Doctor of Philosophy: Statistics
+Cornell University Graduate School, Ithaca, NY 
+
+- **Entered:** Fall 20XX    
+- **GPA:** a million
+- List awards and achievements
+- **Advisor:** [Dr. Martin Wells](https://stat.cornell.edu/people/faculty/martin-wells)
+- **Research Assistantship Advisor:** [Dr. Felix Thoemmes](https://www.human.cornell.edu/people/fjt36)
+
+</div>
+<div style="margin-bottom:20px;">
+</div>
+
+## Tips for Cornell students in statistics
+
+- Do not start graduate school during a global pandemic.
+
+## Articles and News
+
+- List cool things here
+
+

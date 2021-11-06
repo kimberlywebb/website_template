@@ -1,0 +1,29 @@
+name: "kim-hochstedler"
+output_dir: "docs"
+navbar:
+  title: "My name"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Education"
+      menu: 
+        - text: "Undergraduate"
+          href: undergrad.html
+        - text: "Graduate"
+          href: phd.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact_info.html
+    - icon: fa-github fa-lg
+      href: https://github.com/kimhochstedler
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/kimhochstedler
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/kimberly-hochstedler/
+    - icon: fa-google fa-lg
+      href: https://scholar.google.com/citations?user=-805KJkAAAAJ&hl=en
+      
+output:
+  html_document:
+    theme: journal
+    css: styles.css

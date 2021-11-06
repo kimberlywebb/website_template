@@ -1,0 +1,14 @@
+---
+title: "Contact Information"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'contact_info.html'))})
+output:
+  html_document:
+    df_print: paged
+    css: "style.css"
+---
+
+Please contact me at [my_email@cornell.edu]()

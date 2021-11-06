@@ -1,0 +1,16 @@
+img {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+ padding: 1em;
+ line-height: 20px ; 
+} 
+
+.fa-2x {
+  vertical-align: middle;
+}
