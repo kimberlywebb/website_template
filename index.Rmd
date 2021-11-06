@@ -24,7 +24,7 @@ Ph.D. Student in [Statistics at Cornell University](https://stat.cornell.edu/)
 </div>
 
 <center>
-<img src="Kim_Hochstedler_headshot.png" style="width:20%;
+<img src="photo_of_me.png" style="width:20%;
 border:5px solid; border-color:black">
 </center>
 
