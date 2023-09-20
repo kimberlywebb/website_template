@@ -41,3 +41,8 @@ Please find my CV [insert link here].
 </div>
 <div style="margin-bottom:20px;">
 </div>
+
+<center>
+This website was created using [Kimberly Webb's](https://kimhwebb.com) template, found [here](https://github.com/kimberlywebb/website_template.git).
+<!--PLEASE DO NOT REMOVE THE CITATION-->
+</center>
